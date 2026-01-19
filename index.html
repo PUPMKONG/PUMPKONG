@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>$PUMPKONG | Meme Coin</title>
+  <meta name="description" content="$PUMPKONG is a meme coin for entertainment and community culture. Not financial advice." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Background FX -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"></div>
+
+  <header class="topbar">
+    <div class="logo">$PUMPKONG</div>
+    <nav class="nav">
+      <a href="#about">Lore</a>
+      <a href="#memes">Memes</a>
+      <a href="#howto">How it works</a>
+      <a href="#links">Links</a>
+    </nav>
+    <a class="btn small" href="#links">COMMUNITY</a>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="badge">🎃🦍 PUMPKONG IS COMING</div>
+        <h1>
+          THE JUNGLE MEME KING
+          <span class="green">WE PUMP AT DAWN (IN MEMES).</span>
+        </h1>
+        <p class="subtitle">
+          No roadmap. Only vibes. Pure meme energy.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#about">🎃 ENTER THE JUNGLE</a>
+          <button class="btn ghost" id="copyCA">📋 Copy CA</button>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-title">Mode</div>
+            <div class="stat-value" id="modeText">PUMP</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Vibe</div>
+            <div class="stat-value">MEME</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Status</div>
+            <div class="stat-value">JUNGLE</div>
+          </div>
+        </div>
+
+        <div class="mini-note">
+          <span>CA:</span>
+          <code id="caText">PASTE_YOUR_CONTRACT_ADDRESS_HERE</code>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="kong-card">
+          <div class="kong-glow"></div>
+          <img class="kong-img" src="assets/pumpkong_hero.png" alt="PUMPKONG" />
+          <div class="kong-caption">
+            <span class="tag">FINAL BOSS</span>
+            <span class="tag">100x EYES</span>
+            <span class="tag">JUNGLE LAW</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2>📜 Lore</h2>
+      <div class="card">
+        <p>
+          PUMPKONG was born when fear hit the market… and degens decided to laugh instead.
+          He turns panic into memes and chaos into jungle energy.
+        </p>
+        <p class="quote">
+          “JUST A MEME. JUST A MOMENT.”
+        </p>
+      </div>
+    </section>
+
+    <!-- MEMES -->
+    <section class="section" id="memes">
+      <h2>😂 Meme Terminal</h2>
+      <div class="grid">
+        <div class="meme-card">
+          <h3>🟢 Green energy</h3>
+          <p>“No roadmap. Only vibes.”</p>
+        </div>
+        <div class="meme-card">
+          <h3>🎃 Jungle mode</h3>
+          <p>“The jungle has spoken.”</p>
+        </div>
+        <div class="meme-card">
+          <h3>⚡ Dawn ritual</h3>
+          <p>“We pump at dawn (in memes).”</p>
+        </div>
+      </div>
+
+      <button class="btn wide" id="newMeme">🎲 Generate Meme Line</button>
+      <div class="meme-output" id="memeOutput"></div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="howto">
+      <h2>⚡ How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <h3>Get a wallet</h3>
+            <p>Use a compatible wallet to explore tokens on-chain.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <h3>Verify the info</h3>
+            <p>Always confirm the contract address from official links.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <h3>Stay safe</h3>
+            <p>$PUMPKONG is a meme coin for entertainment. Do your own research.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:14px">
+        <h3 style="margin:0 0 8px">Disclaimer</h3>
+        <p style="margin:0;color:rgba(233,255,238,.75)">
+          $PUMPKONG is a meme coin created for entertainment and community culture.
+          Nothing on this site is financial advice, an offer, or a solicitation to buy or sell anything.
+          Crypto is risky — do your own research.
+        </p>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <section class="section" id="links">
+      <h2>🔗 Links</h2>
+      <div class="grid">
+        <a class="link-card" href="https://x.com/i/communities/2013193452863775009" target="_blank" rel="noreferrer">🐦 Twitter Community</a>
+        <a class="link-card" href="#" target="_blank" rel="noreferrer">🚀 Pump.fun</a>
+        <a class="link-card" href="#" target="_blank" rel="noreferrer">📊 Dexscreener</a>
+        <a class="link-card" href="#" target="_blank" rel="noreferrer">💬 Telegram</a>
+      </div>
+
+      <div class="footer">
+        <p>Made for the jungle. Powered by memes. 🦍🎃</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
