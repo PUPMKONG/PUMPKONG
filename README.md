@@ -22,3 +22,5 @@ A meme coin landing page for **$PUMPKONG**.
 
 Twitter community link:
 https://x.com/i/communities/2013193452863775009
+Telegram community link:
+https://t.me/PUMPKONG_comunitie
